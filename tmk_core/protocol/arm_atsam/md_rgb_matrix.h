@@ -115,12 +115,13 @@ extern const uint8_t led_setups_count;
 extern void *        led_setups[];
 
 // LED Extra Instructions
-#    define LED_FLAG_NULL 0x00               // Matching and coloring not used (default)
-#    define LED_FLAG_MATCH_ID 0x01           // Match on the ID of the LED (set id#'s to desired bit pattern, first LED is id 1)
-#    define LED_FLAG_MATCH_LAYER 0x02        // Match on the current active layer (set layer to desired match layer)
-#    define LED_FLAG_USE_RGB 0x10            // Use a specific RGB value (set r, g, b to desired output color values)
-#    define LED_FLAG_USE_PATTERN 0x20        // Use a specific pattern ID (set pattern_id to desired output pattern)
-#    define LED_FLAG_USE_ROTATE_PATTERN 0x40 // Use pattern the user has cycled to manually
+#    define LED_FLAG_NULL 0x00                // Matching and coloring not used (default)
+#    define LED_FLAG_MATCH_ID 0x01            // Match on the ID of the LED (set id#'s to desired bit pattern, first LED is id 1)
+#    define LED_FLAG_MATCH_LAYER 0x02         // Match on the current active layer (set layer to desired match layer)
+#    define LED_FLAG_USE_RGB 0x10             // Use a specific RGB value (set r, g, b to desired output color values)
+#    define LED_FLAG_USE_PATTERN 0x20         // Use a specific pattern ID (set pattern_id to desired output pattern)
+#    define LED_FLAG_USE_ROTATE_PATTERN 0x40  // Use pattern the user has cycled to manually
+#    define LED_FLAG_USE_BYPASS 0x80          // Bypass md_rgb_matrix anim
 
 typedef struct led_instruction_s {
     uint16_t flags; // Bitfield for LED instructions
@@ -200,5 +201,7 @@ void md_led_changed(void);
 #else
 extern uint8_t gcr_desired;
 #endif // USE_MASSDROP_CONFIGURATOR
+
+extern uint8_t gMdRenderingEnable;
 
 #endif //_LED_MATRIX_H_
