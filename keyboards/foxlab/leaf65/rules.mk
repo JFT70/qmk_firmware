@@ -17,4 +17,4 @@ BACKLIGHT_ENABLE = yes      # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = yes       # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 
-LAYOUTS = 65_ansi_blocker_split_bs # Support community layouts
+LAYOUTS = 65_ansi_blocker_split_bs 65_ansi_blocker_tsangan   # Support community layouts

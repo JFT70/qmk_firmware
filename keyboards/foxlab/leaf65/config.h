@@ -59,5 +59,5 @@
 #define LOCKING_RESYNC_ENABLE
 
 /* disable these deprecated features by default */
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
+//#define NO_ACTION_MACRO
+//#define NO_ACTION_FUNCTION
