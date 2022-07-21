@@ -21,3 +21,6 @@ EEPROM_DRIVER = i2c
 
 # Enter lower-power sleep mode when on the ChibiOS idle thread
 OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE -DDEBUG_EEPROM_OUTPUT=TRUE
+STM32_BOOTLOADER_ADDRESS = 0x1FFF0000
+LAYOUTS = 65_ansi_blocker 65_ansi_blocker_tsangan
+
