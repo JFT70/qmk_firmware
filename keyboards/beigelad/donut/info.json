@@ -1,0 +1,35 @@
+{
+    "manufacturer": "Beige Lad",
+    "keyboard_name": "beigelad/donut",
+    "maintainer": "JFT70",
+    "bootloader": "atmel-dfu",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false
+    },
+    "processor": "atmega32u4",
+    "matrix_pins": {
+        "direct": [
+        ["F4", "F5", "F7", "F6", "D4", "D7"]
+        ]
+    },
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_donut": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [0, 3], "x": 3, "y": 0 },
+                { "matrix": [0, 4], "x": 3, "y": 0 },
+                { "matrix": [0, 5], "x": 3, "y": 0 }
+            ]
+        }
+    }
+}
