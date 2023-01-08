@@ -109,3 +109,5 @@
     { k300, k301, k302, k303, k304, k305, k306, k307, k308, k309, k310, k311, k312, KC_NO}, \
     { k400, k401, k402, KC_NO,KC_NO,KC_NO,k406, KC_NO,KC_NO,KC_NO,k410, k411, k412, KC_NO} \
 }
+
+#define LAYOUT_60_ansi_tsangan_split_rshift LAYOUT_60_tsangan_split_rshift

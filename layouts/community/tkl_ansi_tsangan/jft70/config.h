@@ -1,2 +1,5 @@
+#pragma once
+
 #define RGBLIGHT_SLEEP
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
+#define RGB_DISABLE_TIMEOUT 10
