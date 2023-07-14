@@ -4,7 +4,7 @@
     "url": "https://www.rmkeebs.com/product/rm-numpad/",
     "maintainer": "RuckerMachine",
     "usb": {
-        "vid": "0xFEED",
+        "vid": "0xCAFE",
         "pid": "0x524E",
         "device_version": "0.0.1"
     },
