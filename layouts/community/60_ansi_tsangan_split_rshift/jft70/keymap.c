@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___,
         ___T___, ___T___, RGB_VAI, ___T___, RGB_HUI, RGB_SAI, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, QK_BOOT,
         RGB_TOG, RGB_RMOD,RGB_VAD, RGB_MOD, RGB_HUD, RGB_SAD, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___,          ___T___,
-        BL_TOGG,          BL_DEC,  BL_STEP, BL_INC,  ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___,
+        BL_TOGG,          BL_DOWN, BL_STEP,   BL_UP, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___, ___T___,
         ___T___, ___T___, ___T___,                            KC_MPLY,                                     ___T___, ___T___, ___T___
     ),
 
