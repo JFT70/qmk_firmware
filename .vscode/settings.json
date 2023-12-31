@@ -29,5 +29,6 @@
         "editor.formatOnSave": false
     },
     "clangd.arguments": ["--header-insertion=never"],
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cmake.sourceDirectory": "/Users/jftremblay/jft70/qmk_firmware/lib/pico-sdk/src"
 }
